@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #B7B5B3;
+    height: 120px;
+    
+}
+
+.titulo{
+    text-align: center;
+    color: #B9E6FF;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #B9E6FF;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.menu a:hover{
+    border: 1px solid;
+    background-color: #B9E6FF;
+    color:  rgb(0, 0, 0);
+    border-radius: 10px;
+}

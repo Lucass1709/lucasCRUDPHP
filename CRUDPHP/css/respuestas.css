@@ -17,5 +17,9 @@
 
 .trmain th{
     border: 1px solid black;
+    text-align: center;
     color: white;
+    background-color: black;
+    font-weight: 700;
+    opacity: .8;
 }
